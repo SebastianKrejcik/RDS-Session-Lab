@@ -29,6 +29,10 @@ flowchart LR
     SW --- C2[Client – Abteilung SI]
 ```
 
+Statisches PNG (z. B. für LinkedIn oder Plattformen ohne Mermaid-Rendering):
+
+![Architekturübersicht](assets/architektur.png)
+
 | Komponente | Rolle |
 |---|---|
 | Domain Controller | Active Directory, OU-Struktur, Gruppenrichtlinien (GPO) |
