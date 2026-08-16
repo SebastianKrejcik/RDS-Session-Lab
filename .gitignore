@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+*.swp
+
+# Secrets / lokale Notizen (falls du sowas mal reinlegst)
+*.env
+notes-local.md
