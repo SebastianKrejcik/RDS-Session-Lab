@@ -1,3 +1,4 @@
+
 # Session-basierte RDS-Umgebung mit AD, Fileserver & GPO-gesteuerter App-Bereitstellung
 
 Aufbau einer vollständigen Windows-Remote-Desktop-Services-Umgebung (Session-based
@@ -142,4 +143,3 @@ abzugrenzen.
 │   └── berechtigungsmatrix.md
 └── assets/
 ```
-# rds-session-lab-
