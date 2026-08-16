@@ -17,19 +17,19 @@ Unternehmen und Bildungseinrichtungen mit heterogenen Client-Landschaften vorkom
 
 ## Architektur
 
-```mermaid
-flowchart LR
-    Internet((Internet)) --- FW[Firewall]
-    FW --- RT[Router]
-    RT --- SW[Switch]
-    SW --- DC[Domain Controller<br/>Active Directory / GPO]
-    SW --- RDS[RDS-Server<br/>Session Host + Connection Broker]
-    SW --- FS[Fileserver<br/>RDS_APPS Freigabe]
-    SW --- C1[Client – Abteilung AE]
-    SW --- C2[Client – Abteilung SI]
-```
+#```mermaid
+#flowchart LR
+#    Internet((Internet)) --- FW[Firewall]
+#    FW --- RT[Router]
+#    RT --- SW[Switch]
+#    SW --- DC[Domain Controller<br/>Active Directory / GPO]
+#    SW --- RDS[RDS-Server<br/>Session Host + Connection Broker]
+#    SW --- FS[Fileserver<br/>RDS_APPS Freigabe]
+#    SW --- C1[Client – Abteilung AE]
+#    SW --- C2[Client – Abteilung SI]
+#```
 
-Statisches PNG (z. B. für LinkedIn oder Plattformen ohne Mermaid-Rendering):
+#Statisches PNG (z. B. für LinkedIn oder Plattformen ohne Mermaid-Rendering):
 
 ![Architekturübersicht](assets/architektur.png)
 
